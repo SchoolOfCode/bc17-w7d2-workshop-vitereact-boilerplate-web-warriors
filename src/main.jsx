@@ -1,31 +1,31 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 // import App from './App.jsx'
-import './App.css'
+import "./App.css";
+import Header from "./Components/Header/Header.jsx";
+import Wrapper from "./Components/Wrapper/Wrapper.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
 
 function App() {
   return (
-    <div className="wrapper">
-      <header className="header">
-        <h1 className="heading">🔥 Fireplace Palace</h1>
-      </header>
-
-      <main>
+    <Wrapper>
+      {/* <main>
         <section className="section hero hero-section">
-          <img src="Images/hero-mobile.png" alt=""/>
+          <img src="Images/hero-mobile.png" alt="" />
           <article>
             <h1>Discover the perfect Fireplace..</h1>
-            <h2>Book consultation: <span>0121 345 6789</span></h2>
+            <h2>
+              Book consultation: <span>0121 345 6789</span>
+            </h2>
           </article>
         </section>
         <h2 className="how-it-works-header">How it works</h2>
-        
+
         <section className="section how-it-works">
           <div className="card">
             <img src="Images/how-it-works-1.png" alt="" />
@@ -51,8 +51,8 @@ function App() {
             <p>We send you a bespoke set of fireplace recommendations.</p>
           </div>
         </section>
-        </main>
-        <footer>
+      </main>
+      <footer>
         <div>
           <p>Find us on:</p>
           <ul>
@@ -67,8 +67,9 @@ function App() {
             <a href="mailto:info@firepalace.co.uk">info@firepalace.co.uk</a>
           </p>
         </div>
-      </footer>
-    </div>
+      </footer> */}
+    </Wrapper>
+    // </div>
   );
 }
 
