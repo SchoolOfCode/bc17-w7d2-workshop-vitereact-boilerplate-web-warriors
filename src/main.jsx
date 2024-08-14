@@ -13,10 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 function App() {
   return (
-    <>
     <Wrapper></Wrapper>
-    <Hero></Hero>
-    </>
   );
 }
 
